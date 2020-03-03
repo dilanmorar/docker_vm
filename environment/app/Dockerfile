@@ -26,12 +26,14 @@ RUN apt-get install nodejs -y
 
 RUN npm install pm2 -g
 
-WORKDIR . /node-sample-app
+WORKDIR /home/ubuntu/node-sample-app
 
 RUN npm install
 
-RUN sudo apt-get install nodejs-legacy -y
+# RUN sudo apt-get install nodejs-legacy -y
 
-RUN node app.js
+# RUN node app.js
 
 EXPOSE 80 3000
+
+CMD service nginx start && node app.js
