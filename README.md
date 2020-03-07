@@ -14,6 +14,8 @@ enter the virtual machine:
 ```
 vagrant ssh
 ```
+To test that docker is running - `sudo systemctl status docker`
+
 go to directory containing dockerfile:
 ```
 cd /home/ubuntu/environment/app
