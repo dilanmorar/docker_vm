@@ -1,11 +1,13 @@
 # docker vm
 
-installing docker on a virtual machine
+In this repo I installed docker on a virtual machine. I know this isn't an efficient way of using docker but I was unable/having problems installing docker on windows. I used this as practice creating images and running containers. I now have got access to a windows 10 pro key so wont be using docker in a virtual machine. Remember if using docker enable hyper-v, if using a virtual machine disable hyper-v.
 
+## docker
 
-testing docker running - sudo systemctl status docker
+Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
 
-# running dockerfile
+## running dockerfile
+
 start virtual machine:
 ```
 vagrant up
