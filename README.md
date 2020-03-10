@@ -26,7 +26,7 @@ build a docker image:
 ```
 sudo docker build -t app .
 ```
-run a docker image:
+run a docker image, container:
 ```
 sudo docker run -p 80:80 -p 3000:3000 app
 ```
